@@ -25,6 +25,12 @@ Example:
 from 'foo' import { bar, baz as zaz };
 ```
 
+Another example to avoid having `from` as a reserved keyword (props to @IgnoredAmbience):
+```
+import from 'foo' {bar, baz as zaz};
+```
+
+
 ## Implementations
 
 * [Babylon Fork Proof of Concept Plugin](https://github.com/vladi-dev/babel/pull/1)
