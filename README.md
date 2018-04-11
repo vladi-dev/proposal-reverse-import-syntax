@@ -25,7 +25,7 @@ Example:
 from 'foo' import { bar, baz as zaz };
 ```
 
-Another example to avoid having `from` as a reserved keyword (props to @IgnoredAmbience):
+Another example to avoid having `from` as a reserved keyword (props to [Thomas Wood](https://github.com/IgnoredAmbience)):
 ```
 import from 'foo' {bar, baz as zaz};
 ```
