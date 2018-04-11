@@ -30,6 +30,11 @@ Another example to avoid having `from` as a reserved keyword (props to @IgnoredA
 import from 'foo' {bar, baz as zaz};
 ```
 
+Side-effecting imports should still work:
+```
+import 'foo';
+```
+
 
 ## Implementations
 
